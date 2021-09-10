@@ -1,0 +1,9 @@
+.container{
+    /*background: red;*/
+    margin: 0 auto;
+    padding: 1rem;
+}
+.container p{
+    /*background: yellow;*/
+    text-align: center;
+}

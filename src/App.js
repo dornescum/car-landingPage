@@ -8,6 +8,7 @@ import img_5 from "./assets/dan-5.jpg";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";
+import Info from "./components/info/info";
 
 function App() {
   const navbarLinks = [
@@ -55,7 +56,7 @@ function App() {
             flipped={true}
         />
       <p id='info'>{}</p>
-      <div>dsadsadsa asd asd asd asd asd as</div>
+     <Info />
 
     </div>
   );
