@@ -12,64 +12,51 @@ import Slider from "./components/Slider";
 function App() {
   const navbarLinks = [
     { url: "home", title: "Home" },
-    { url: "fata", title: "Trips" },
-    { url: "spate", title: "Rewards" },
+    { url: "#fata", title: "Interior" },
+    { url: "#portbagaj", title: "Portbagaj" },
+    { url: "#spate", title: "Spate" },
+    { url: "#info", title: "Info" },
   ];
 
-    // const inputEl = useRef(null);
-    // const onButtonClick = () => {
-    //     // `current` points to the mounted text input element
-    //     inputEl.current.focus();
-    // };
-  // const scroll = () => {
-  //   const section = document.querySelector( '#fata' );
-  //   section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
-  // };
-
-  const sectionOne = useRef(null);
-  const goOne =()=>{
-    const height = window.innerHeight;
-    console.log(height)
-    window.scrollTo({top: sectionOne.current.offsetTop, behavior: 'smooth'})
-  }
-
-
     return (
-    <div className="App">
-      <Navbar navbarLinks={navbarLinks} id='home'/>
+    <div className="App" id='home'>
+      <Navbar navbarLinks={navbarLinks} />
+      {/*<Navbar  />*/}
       <Hero imageSrc={head} />
-
-      <Slider id='fata'
+      <p id='fata'>{}</p>
+      <Slider
         imageSrc={img_1}
         title={"Be an explorer."}
         subtitle={
           "Our platform offers a wide variety of unique travel locations!"
         }
-              // ref={inputEl}
-              // onClick={onButtonClick}
-
       />
 
-      <Slider id='interior'
+      <p id='interior'>{}</p>
+      <Slider
         imageSrc={img_3}
         title={"Memories for a lifetime."}
         subtitle={"Your dream vacation is only a few clicks away."}
         flipped={true}
       />
-        <Slider id='portbagaj'
+      <p id='portbagaj'>{}</p>
+        <Slider
             imageSrc={img_4}
             title={"Be an explorer."}
             subtitle={
                 "Our platform offers a wide variety of unique travel locations!"
             }
         />
-
-        <Slider id='spate'
+      <p id='spate'>{}</p>
+        <Slider
             imageSrc={img_5}
             title={"Memories for a lifetime."}
             subtitle={"Your dream vacation is only a few clicks away."}
             flipped={true}
         />
+      <p id='info'>{}</p>
+      <div>dsadsadsa asd asd asd asd asd as</div>
+
     </div>
   );
 }

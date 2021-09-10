@@ -1,21 +1,22 @@
 import React, {useRef, useState} from "react";
 import "./Navbar.css";
 import { FiMenu, FiX } from "react-icons/fi";
-
-const Navbar = ({ navbarLinks }) => {
-  // Determines if the "menu icon" was clicked or not. Note that this icon is only visible when the window width is small.
+// {navbarLinks}
+const Navbar = ({navbarLinks}) => {
   const [menuClicked, setMenuClicked] = useState(false);
 
   const toggleMenuClick = () => {
     setMenuClicked(!menuClicked);
   };
-
-  // const scroll = () => {
-  //   const section = document.querySelector( '#fata' );
-  //   section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
-  // };
-
-
+  const handleClick =(e)=>{
+      const target = e.target.getAttribute('href');
+      const location = document.querySelector(target).offsetTop;
+    console.log(location)
+    window.scrollTo({
+      left: 0,
+      top: location - 70
+    })
+  }
     return (
     <nav className="navbar">
       <span className="navbar__logo">Vitezomanu Gica</span>
@@ -36,7 +37,8 @@ const Navbar = ({ navbarLinks }) => {
         {navbarLinks.map((item, index) => {
           return (
             <li className="navbar__item" key={index}>
-              <a className="navbar__link" href={item.url}
+              {/*todo err la height*/}
+              <a className="navbar__link" href={item.url} onClick={handleClick}
               >
                 {item.title}
               </a>
