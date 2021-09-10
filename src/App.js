@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";
 import Info from "./components/info/info";
 
+
 function App() {
   const navbarLinks = [
     { url: "home", title: "Home" },
@@ -57,6 +58,7 @@ function App() {
         />
       <p id='info'>{}</p>
      <Info />
+
 
     </div>
   );
