@@ -2,6 +2,7 @@ import React, {useRef} from "react";
 import "./App.css";
 import img_1 from "./assets/webp/1.webp";
 import img_2 from "./assets/webp/2.webp";
+import img_2s from "./assets/webp/2-sm.webp";
 import img_3 from "./assets/webp/3.webp";
 import img_4 from "./assets/webp/4.webp";
 import img_5 from "./assets/webp/5.webp";
@@ -14,7 +15,8 @@ import img_11 from "./assets/webp/11.webp";
 import img_13 from "./assets/webp/13.webp";
 import img_14 from "./assets/webp/14.webp";
 import img_15 from "./assets/webp/15.webp";
-
+// import imgF from '../public/img/2.webp'
+// import imgF1 from '../public/img/2.webp'
 import img_12 from "./assets/webp/12.webp";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -30,31 +32,35 @@ function App() {
     { url: "#spate", title: "Spate" },
     { url: "#info", title: "Info" },
   ];
-
+  console.log(img_2s)
     return (
     <div className="App" id='home'>
       <Navbar navbarLinks={navbarLinks} />
       {/*<Navbar  />*/}
       <Hero imageSrc={img_1} />
       <p id='fata'>{}</p>
-      <Slider
-        imageSrc={img_12}
-        title={"Be an explorer."}
-        subtitle={
-          "Our platform offers a wide variety of unique travel locations!"
-        }
-      />
 
       <p id='interior'>{}</p>
       <Slider
+        srcSet={`${img_2s} 600w,  ${img_2} 1200w`}
+        sizes="(max-width:600px) 50vw,
+                        (max-width:1920px) 100vw"
+
         imageSrc={img_2}
-        title={"Memories for a lifetime."}
+
+
+        title={"Bordul Masini"}
         subtitle={"Your dream vacation is only a few clicks away."}
         flipped={true}
       />
       <p id='portbagaj'>{}</p>
         <Slider
             imageSrc={img_3}
+            srcSet={`${img_2s} 600w,  ${img_2} 1200w`}
+
+            sizes="(max-width:600px) 50vw,
+
+                        (max-width:1920px) 100vw"
             title={"Be an explorer."}
             subtitle={
                 "Our platform offers a wide variety of unique travel locations!"
@@ -138,7 +144,13 @@ function App() {
       />
 
 
-
+        <div>
+          <img src={img_2} srcSet={`${img_2s} 600w,  ${img_2} 1200w`}  alt="test"
+               sizes="(max-width:600px) 50vw,
+                        (max-width: 768px) 70vw,
+                        (max-width:1920px) 100vw"
+          />
+        </div>
 
      <Info />
 
