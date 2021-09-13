@@ -22,3 +22,23 @@
     padding: .5rem;
     margin: .5rem;
 }
+@media screen and (max-width: 600px) {
+    .col-lg {
+        width: 160px;
+        font-size: 14px;
+    }
+    .col-lg p {
+        padding: .5rem 0;
+        margin: .5rem 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .col-lg {
+        width: 144px;
+        font-size: 13px;
+    }
+    .col-lg p {
+        padding: .5rem 0;
+        margin: .5rem 0;
+    }
+}

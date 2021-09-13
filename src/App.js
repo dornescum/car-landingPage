@@ -81,7 +81,7 @@ function App() {
 
       <Slider
           imageSrc={img_6}
-          title={"Tapiterie intretinuta"}
+          title={"Tapiterie protejata"}
           subtitle={""}
           flipped={true}
       />
@@ -144,8 +144,8 @@ function App() {
       />
 
       <p id='info'>{}</p>
-     <Info />
-     {/* <AltInfo />*/}
+     {/*<Info />*/}
+      <AltInfo />
     </div>
   );
 }
