@@ -1,0 +1,24 @@
+/*.container{*/
+/*    background: black;*/
+/*    opacity: 0.75;*/
+/*    margin: 0 auto;*/
+/*    padding: 1rem;*/
+/*    color: white;*/
+/*    width: 100%;*/
+/*}*/
+/*.container .row {*/
+/*    display: flex;*/
+/*    flex-flow: wrap;*/
+/*    justify-content: space-around;*/
+/*    align-content: center;*/
+/*}*/
+.col-lg{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.col-lg p {
+    padding: .5rem;
+    margin: .5rem;
+}
