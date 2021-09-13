@@ -16,10 +16,10 @@ const Slider = ({ imageSrc, title, subtitle, flipped, small, large  }) => {
         <>
           <img src={imageSrc}
 
-               srcSet={`${small} 600w,  ${large} 1200w`}
-               sizes="(max-width:600px) 50vw,
-                        (max-width: 768px) 70vw,
-                        (max-width:1920px) 100vw"
+               {/*srcSet={`${small} 600w,  ${large} 1200w`}*/}
+               {/*sizes="(max-width:600px) 50vw,*/}
+               {/*         (max-width: 768px) 70vw,*/}
+               {/*         (max-width:1920px) 100vw"*/}
 
                alt="Travel" className="slider__image" />
           <div className="slider__content">
@@ -36,10 +36,10 @@ const Slider = ({ imageSrc, title, subtitle, flipped, small, large  }) => {
             <p>{subtitle}</p>
           </div>
           <img src={imageSrc}
-               srcSet={`${small} 600w,  ${large} 1200w`}
-               sizes="(max-width:600px) 50vw,
-                        (max-width: 768px) 70vw,
-                        (max-width:1920px) 100vw"
+               // srcSet={`${small} 600w,  ${large} 1200w`}
+               // sizes="(max-width:600px) 50vw,
+               //          (max-width: 768px) 70vw,
+               //          (max-width:1920px) 100vw"
 
                alt="Travel" className="slider__image" />
         </>

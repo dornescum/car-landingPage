@@ -2,106 +2,106 @@
   {
     "id": 1,
     "title": "masina mea",
-    "img": "./assets/webp/1.webp",
-    "img-sm": "./assets/webp/1-sm.webp",
-    "desc": ""
+    "img": "./img/1.webp",
+    "imgSm": "./img/1-sm.webp",
+    "desc": "dsadsadasdasd"
   },
    {
     "id": 2,
     "title": "masina mea",
-    "img": "./assets/webp/1.webp",
-    "img-sm": "./assets/webp/1-sm.webp",
-    "desc": ""
+    "img": "./img/2.webp",
+    "imgSm": "./img/1-sm.webp",
+    "desc": "dsdasdas"
   },
    {
     "id": 3,
     "title": "masina mea",
-    "img": "./assets/webp/1.webp",
-    "img-sm": "./assets/webp/1-sm.webp",
+    "img": "./img/3.webp",
+    "imgSm": "./img/1-sm.webp",
     "desc": ""
   },
    {
     "id": 4,
     "title": "masina mea",
-    "img": "./assets/webp/1.webp",
-    "img-sm": "./assets/webp/1-sm.webp",
+    "img": "./img/4.webp",
+    "imgSm": "./img/1-sm.webp",
     "desc": ""
   },
    {
     "id": 5,
     "title": "masina mea",
-    "img": "./assets/webp/1.webp",
-    "img-sm": "./assets/webp/1-sm.webp",
+    "img": "./img/1.webp",
+    "imgSm": "./img/1-sm.webp",
     "desc": ""
   },
    {
     "id": 6,
     "title": "masina mea",
-    "img": "./assets/webp/1.webp",
-    "img-sm": "./assets/webp/1-sm.webp",
+    "img": "./img/1.webp",
+    "imgSm": "./img/1-sm.webp",
     "desc": ""
   },
    {
     "id": 7,
     "title": "masina mea",
-    "img": "./assets/webp/1.webp",
-    "img-sm": "./assets/webp/1-sm.webp",
+    "img": "./img/1.webp",
+    "imgSm": "./img/1-sm.webp",
     "desc": ""
   },
    {
     "id": 8,
     "title": "masina mea",
-    "img": "./assets/webp/1.webp",
-    "img-sm": "./assets/webp/1-sm.webp",
+    "img": "./img/1.webp",
+    "imgSm": "./img/1-sm.webp",
     "desc": ""
   },
    {
     "id": 9,
     "title": "masina mea",
-    "img": "./assets/webp/1.webp",
-    "img-sm": "./assets/webp/1-sm.webp",
+    "img": "./img/1.webp",
+    "imgSm": "./img/1-sm.webp",
     "desc": ""
   },
    {
     "id": 10,
     "title": "masina mea",
-    "img": "./assets/webp/1.webp",
-    "img-sm": "./assets/webp/1-sm.webp",
+    "img": "./img/1.webp",
+    "imgSm": "./img/1-sm.webp",
     "desc": ""
   },
    {
     "id": 11,
     "title": "masina mea",
-    "img": "./assets/webp/1.webp",
-    "img-sm": "./assets/webp/1-sm.webp",
+    "img": "./img/1.webp",
+    "imgSm": "./img/1-sm.webp",
     "desc": ""
   },
    {
     "id": 12,
     "title": "masina mea",
-    "img": "./assets/webp/1.webp",
-    "img-sm": "./assets/webp/1-sm.webp",
+    "img": "./img/1.webp",
+    "imgSm": "./img/1-sm.webp",
     "desc": ""
   },
    {
     "id": 13,
     "title": "masina mea",
-    "img": "./assets/webp/1.webp",
-    "img-sm": "./assets/webp/1-sm.webp",
+    "img": "./img/1.webp",
+    "imgSm": "./img/1-sm.webp",
     "desc": ""
   },
    {
     "id": 14,
     "title": "masina mea",
-    "img": "./assets/webp/1.webp",
-    "img-sm": "./assets/webp/1-sm.webp",
+    "img": "./img/1.webp",
+    "imgSm": "./img/1-sm.webp",
     "desc": ""
   },
    {
     "id": 15,
     "title": "masina mea",
-    "img": "./assets/webp/1.webp",
-    "img-sm": "./assets/webp/1-sm.webp",
+    "img": "./img/1.webp",
+    "imgSm": "./img/1-sm.webp",
     "desc": ""
   }
 
