@@ -21,11 +21,9 @@
     border: 0;
     padding: .9rem;
     margin:.4rem 1rem;
-    /*border-radius: 20px;*/
     border-radius: 50%;
     background-color: #e2e2e2;
-    /*width: 10px;*/
-    /*height: 30px;*/
+
 }
 
 .btn-info:hover {
@@ -38,16 +36,12 @@
 .row-footer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-content: center;
 }
 .row p {
     /*padding: .3rem 1rem;*/
 }
-/*.show-info{*/
-/*    background: #ccc;*/
-/*}*/
-
 
 @keyframes btn-anim {
     0% {
@@ -63,9 +57,9 @@
 }
 @media screen and (max-width: 600px) {
     .row-footer {
-        /*display: flex;*/
-        flex-direction: column;
-        justify-content: flex-start;
-       width: 200px;
+        justify-content: flex-end;
+    }
+    .btn-info {
+        margin: .1rem;
     }
 }

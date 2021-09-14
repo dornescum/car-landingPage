@@ -148,7 +148,7 @@ function App() {
       <p id='info'>{}</p>
      {/*<Info />*/}
      {/* <AltInfo />*/}
-     {/* <FooterState />*/}
+      <FooterState />
     </div>
   );
 }
