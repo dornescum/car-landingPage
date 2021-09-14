@@ -26,6 +26,7 @@ import Info from "./components/info/info";
 import Card from "./components/card/card";
 import dataInfo from './data.json'
 import AltInfo from "./components/info2/altInfo";
+import FooterState from "./components/footerState/FooterState";
 
 
 function App() {
@@ -145,7 +146,8 @@ function App() {
 
       <p id='info'>{}</p>
      {/*<Info />*/}
-      <AltInfo />
+     {/* <AltInfo />*/}
+      <FooterState />
     </div>
   );
 }
