@@ -42,8 +42,11 @@
     align-content: center;
 }
 .row p {
-    padding: 0 1rem;
+    /*padding: .3rem 1rem;*/
 }
+/*.show-info{*/
+/*    background: #ccc;*/
+/*}*/
 
 
 @keyframes btn-anim {
@@ -61,8 +64,8 @@
 @media screen and (max-width: 600px) {
     .row-footer {
         /*display: flex;*/
-        /*flex-direction: column;*/
-        /*justify-content: flex-start;*/
-        /*margin: 0 7rem 0 0;*/
+        flex-direction: column;
+        justify-content: flex-start;
+       width: 200px;
     }
 }

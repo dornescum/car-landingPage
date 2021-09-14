@@ -17,15 +17,21 @@ const FooterState = () => {
 	return (
 		<div className='container'>
 			<div className="row-footer">
-				<button onClick={handleNumber} className='btn-info' ><img src={phone} alt='phone-icon' /></button>
-				<div className='row'>
-					{showNumber && <p>898989</p>}
+				<div className="col">
+					<button onClick={handleNumber} className='btn-info' ><img src={phone} alt='phone-icon' /></button>
+					<div className='row'>
+						{showNumber && <p className='show-info'>898989</p>}
+					</div>
+				</div>
+				<div className="col">
+					<button onClick={handleEmail} className='btn-info'><img src={emailIcon} alt="email-icon"/></button>
+					<div className="row">
+						{showEmail && <p className='show-info'>email@ya</p>}
+					</div>
 				</div>
 
-				<button onClick={handleEmail} className='btn-info'><img src={emailIcon} alt="email-icon"/></button>
-				<div className="row">
-					{showEmail && <p>email@ya</p>}
-				</div>
+
+
 
 			</div>
 		</div>

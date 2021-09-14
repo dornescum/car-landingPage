@@ -27,6 +27,7 @@ import Card from "./components/card/card";
 import dataInfo from './data.json'
 import AltInfo from "./components/info2/altInfo";
 import FooterState from "./components/footerState/FooterState";
+import Form from './components/form/Form'
 
 
 function App() {
@@ -143,11 +144,11 @@ function App() {
           subtitle={""}
           // flipped={true}
       />
-
+      <Form />
       <p id='info'>{}</p>
      {/*<Info />*/}
      {/* <AltInfo />*/}
-      <FooterState />
+     {/* <FooterState />*/}
     </div>
   );
 }
