@@ -1,18 +1,17 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './form.css';
-import phone from '../../assets/svg/phone.svg'
-import emailIcon from  '../../assets/svg/email.svg'
+
 
 const Form = () => {
-	const [showNumber, setShowNumber] = useState(false);
-	const [showEmail, setShowEmail] = useState(false);
+	// const [showNumber, setShowNumber] = useState(false);
+	// const [showEmail, setShowEmail] = useState(false);
 
-	const handleNumber = () => {
-		setShowNumber(!showNumber)
-	}
-	const handleEmail = () => {
-		setShowEmail(!showEmail)
-	}
+	// const handleNumber = () => {
+	// 	setShowNumber(!showNumber)
+	// }
+	// const handleEmail = () => {
+	// 	setShowEmail(!showEmail)
+	// }
 
 
 	return (

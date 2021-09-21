@@ -1,4 +1,4 @@
-import React, {useRef, useState} from "react";
+import React, { useState} from "react";
 import "./Navbar.css";
 import { FiMenu, FiX } from "react-icons/fi";
 // {navbarLinks}
@@ -11,7 +11,6 @@ const Navbar = ({navbarLinks}) => {
   const handleClick =(e)=>{
       const target = e.target.getAttribute('href');
       const location = document.querySelector(target).offsetTop;
-    console.log(location)
     window.scrollTo({
       left: 0,
       top: location - 70
