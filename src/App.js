@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import img_1 from "./assets/webp/1.webp";
+import img_1 from "./assets/webp/original.webp";
 import img_2 from "./assets/webp/2.webp";
 import img_3 from "./assets/webp/3.webp";
 import img_4 from "./assets/webp/4.webp";
